@@ -1,0 +1,7 @@
+The code used for this blogpost:
+
+http://www.bestinclass.dk/index.php/2010/02/my-tribute-to-steve-ballmer/
+
+-------------------------
+
+A small Clojure program which converts images to ascii-art, either by outputting html or println directly in the REPL.
