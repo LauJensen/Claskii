@@ -4,7 +4,7 @@
   :library-path     "lib/"
   :namespaces       [claskii]
   :main             claskii
-  :dependencies     [[org.clojure/clojure "1.1.0-new-SNAPSHOT"]
-		     [org.clojure/clojure-contrib "1.1.0-new-SNAPSHOT"]
-		     [compojure "0.3.2"]]
-  :dev-dependencies [[swank-clojure "1.1.0"]])
+  :dependencies     [[org.clojure/clojure "1.6.0"]
+		     [compojure "1.2.0"]
+                     [hiccup "1.0.5"]]
+  :dev-dependencies [[swank-clojure "1.4.3"]])
