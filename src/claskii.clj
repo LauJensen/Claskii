@@ -4,8 +4,8 @@
 	   (javax.swing ImageIcon)
 	   (javax.imageio ImageIO)
 	   (java.io File))
-  (:use compojure
-	(clojure.contrib duck-streams seq-utils)))
+  (:require [compojure.core :refer :all]
+            [hiccup.core :refer :all]))
 
 (def ascii-chars [\# \A \@ \% \$ \+ \= \* \: \, \. \space])
 
